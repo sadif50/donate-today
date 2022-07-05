@@ -131,6 +131,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .plan-heading-container {
@@ -158,4 +159,72 @@ body {
 .plan-item {
     padding: 50px 20px;
     border-radius: 5px;
+    width: 25%;
+}
+
+.plan-item img {
+    width: 60px;
+    height: 50px;
+}
+
+.plan-item h2 {
+    color: #121212;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 20px 0;
+}
+
+.plan-item p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+#subscribe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.subscribe-container {
+    width: 65%;
+}
+
+.subscribe-container form {
+    width: 100%;
+    background-color: #fff4d6;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.subscribe-container form input {
+    border: none;
+    background-color: #d9d9d9;
+    color: #aa9f9f;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+
+}
+
+.subscribe-container form input:focus {
+    border: none;
+    outline: 0;
+}
+
+.subscribe-container form label {
+    position: absolute;
+    background-color: #ff5959;
+    padding: 12px 20px;
+    border-radius: 0px 5px 5px 0px;
+    top: -1px;
+    right: 0px;
+    color: #fff;
 }
