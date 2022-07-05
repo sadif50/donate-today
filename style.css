@@ -228,3 +228,25 @@ body {
     right: 0px;
     color: #fff;
 }
+
+footer {
+    background-color: #0b0d17;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    color: #ff5959;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    color: #d9dbe1;
+    font-size: 14px;
+    line-height: 24px;
+}
