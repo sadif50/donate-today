@@ -6,6 +6,16 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -26,9 +36,6 @@ body {
 
 .middle-box {
     width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .banner-heading {
@@ -62,7 +69,7 @@ body {
     padding: 100px 0;
 }
 
-.amount-main-box {
+.headging-container {
     width: 65%;
 }
 
@@ -128,14 +135,7 @@ body {
 }
 
 #donate-plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-bottom: 100px;
-}
-
-.plan-heading-container {
-    width: 65%;
 }
 
 .plans-container {
@@ -181,29 +181,24 @@ body {
 }
 
 #subscribe-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 100px;
 }
 
-.subscribe-container {
-    width: 65%;
-}
 
-.subscribe-container form {
+#subscribe-section form {
     width: 100%;
     background-color: #fff4d6;
     padding: 80px 0;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
 }
 
 .position-relative {
     position: relative;
 }
 
-.subscribe-container form input {
+#subscribe-section form input {
     border: none;
     background-color: #d9d9d9;
     color: #aa9f9f;
@@ -214,12 +209,16 @@ body {
 
 }
 
-.subscribe-container form input:focus {
+#subscribe-section form input:focus {
     border: none;
     outline: 0;
 }
 
-.subscribe-container form label {
+#subscribe-section form input::placeholder {
+    font-size: 18px;
+}
+
+#subscribe-section form label {
     position: absolute;
     background-color: #ff5959;
     padding: 12px 20px;
@@ -228,6 +227,73 @@ body {
     right: 0px;
     color: #fff;
 }
+
+#contribute-section {
+    padding-bottom: 100px;
+}
+
+.contribute-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contribute-list {
+    width: 50%;
+}
+
+.contribute-img {
+    width: 45%;
+}
+
+.contribute-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contribute-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.contribute-icon {
+    background-color: #ff5959;
+    width: 15%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.contribute-icon img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.contribute-text {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.contribute-text h2 {
+    line-height: 1.5;
+    color: #121212;
+}
+
+.contribute-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+
 
 footer {
     background-color: #0b0d17;
